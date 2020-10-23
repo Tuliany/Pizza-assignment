@@ -76,9 +76,6 @@ The functions should all reflect the tasks we've completed so far. So, the funct
 1. `totalCost()` which takes `orderQuantity` as an argument and returns the total cost for the order.
 1. `cookingTime()` which takes `orderQuantity` and returns the number of minutes it will take to finish the order.
 
-### 5. Hand in assignment
-
-As always, when you're done, submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
 ### :books: Reading List
 
