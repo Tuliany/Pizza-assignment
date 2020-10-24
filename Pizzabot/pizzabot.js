@@ -28,9 +28,9 @@ while(isOrdering){
 let orderTotal = parseInt(orderQuantity) * pizzaPrice;
 if(orderQuantity <=2){
 alert(`Great, I'll get started on your ${orderName} right away, it will cost ${orderTotal} kr and it will take ${cookingTime[0]} minutes`);
-} else if (orderQuantity > 2 <= 5){
+} else if (orderQuantity > 2 && orderQuantity <= 5) {
 alert(`Great, I'll get started on your ${orderName} right away, it will cost ${orderTotal} kr and it will take ${cookingTime[1]} minutes`);
-} else if (orderQuantity < 5){ 
+} else if (orderQuantity > 5){ 
 alert(`Great, I'll get started on your ${orderName} right away, it will cost ${orderTotal} kr and it will take ${cookingTime[2]} minutes`);
 }
 
